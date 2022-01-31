@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+h2{
+font-size : 30px;
+color :green
+font-weight :bold;
+text-decoration :underline;
+}
+</style>
+</head>
+<body>
+<center>
+<h2>Adding "py" in front of a string</h2>
+<br>
+<br>
+<label>enter any string:
+<input type="text" id="s"></label>
+<br><br>
+<button onclick="ispystring()">check</button>
+<p id="p"></p>
+<script>
+function ispystring(){
+str=document.getElementById("s").value;
+if(str.substring(0)=="py" ||str.substring(0,2)==="py"||
+str.substring===null)
+{
+document.getElementById("z").innerHTML=str;
+}
+else
+{
+document.grtElementById("z").innerHTML="py"+str;
+}
+}
+</script>
+</center>
+<body.
+</html>
