@@ -2,27 +2,28 @@
 <head>
 <title>Armstrong</title>
 <style>
-h2{
-font-size:30px;
-color:green;
-font-weight:bold;
-text-decoration:underline;
+h2 {
+font-size : 30px;
+color : green;
+font-weight : bold;
+text-decoration : underline;
 }
 </style>
 </head>
 <body>
 <center>
-<h2>check if Amstrong or not</h2>
-<br>
-<br>
-<label>enter any number:
-<input type="text" id="num"></label>
-<button onclick="armstrong()">check</button>
+
+<h2>Check if Armstrong or not</h2>  
+<br><br>
+<label>enter any number : 
+<input type="text" id="num" ></label>
+<button onclick="armstrong()">Check</button>
 <p id="a"></p>
+
 <script>
 function armstrong()
 {
-var n=document.getElementById("num").value;
+var n = document.getElementById("num").value;
 var e,x,arm=0;
 x=parseInt(n);
 while(x>0)
@@ -33,14 +34,16 @@ arm=arm+(e*e*e);
 }
 if(parseInt(n)==arm)
 {
-document.getElementById("a").innerHTML=n+"ia an armstrong number";
+document.getElementById("a").innerHTML =n + " is an armstrong number" ;
 }
 else
 {
-document.getElementById("a").innerHTML=n+"is not an armstrong number";
+document.getElementById("a").innerHTML =n + " is an amstrong number";
 }
 }
 </script>
+
+
 </center>
 </body>
 </html>
